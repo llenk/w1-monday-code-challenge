@@ -8,5 +8,8 @@ function doWhenReady() {
 
 function addDiv() {
     divCounter++;
-    $('#divOfDivs').append(`<div><p>${divCounter}</p></div>`);
+    $('#divOfDivs').append(`<div><p>${divCounter}</p>
+        <button class="swapper">Swap</button>
+        <button class="delete">Delete</button>
+    </div>`);
 }
