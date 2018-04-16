@@ -14,6 +14,7 @@ function addDiv() {
         <button class="delete">Delete</button>
     </div>`);
     $('.swapper:last').on('click', swapBackground);
+    $('.delete:last').on('click', deleteDiv);
 }
 
 function swapBackground() {
@@ -23,4 +24,8 @@ function swapBackground() {
     else {
         this.parentElement.style.background = 'red'
     }
+}
+
+function deleteDiv() {
+    this.parentElement.remove();
 }
