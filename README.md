@@ -1,3 +1,4 @@
 ## Questions
-I remember hearing about the toggle function in the weekend solve this morning, which, from the name, sounds like a good thing to use for the red/yellow switch, but I couldn't figure out how to get it working. Would it actually be an appropriate thing to use, and if so, what would that look like?
-I know there's a .css() method, but I often find myself using .style.background = 'COLOR' because .css() doesn't work. Is that because I'm using .parentElement, and, if so, is there a work-around?
+* I remember hearing about the toggle function in the weekend solve this morning, which, from the name, sounds like a good thing to use for the red/yellow switch, but I couldn't figure out how to get it working. Would it actually be an appropriate thing to use, and if so, what would that look like?
+* I know there's a .css() method, but I often find myself using .style.background = 'COLOR' because .css() doesn't work. Is that because I'm using .parentElement, and, if so, is there a work-around?
+* I know I could also use $('#divOfDivs').on('click', '.swapper', swapBackground()); for swapping backgrounds. Is that way preferred?
