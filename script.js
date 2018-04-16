@@ -1,6 +1,12 @@
-console.log('sdaf');
 $(document).ready(doWhenReady);
 
+let divCounter = 0;
+
 function doWhenReady() {
-    console.log('asdf');
+    $('#generateButt').on('click', addDiv);
+}
+
+function addDiv() {
+    divCounter++;
+    $('#divOfDivs').append(`<div><p>${divCounter}</p></div>`);
 }
